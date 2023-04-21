@@ -24,7 +24,7 @@ public class Main {
                     oj ? /* тернанрый оператор */ new BufferedReader(new InputStreamReader(System.in)) : //если oj - true выполнится это
                             new BufferedReader(new FileReader(inputFileName));  //если oj - false выполнится это
 
-            String readLine = "";
+            String readLine;
 
             int numberOfFriends = 0;
             int numberOfPairs = 0;
